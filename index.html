@@ -1,20 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>New Tab</title>
-        <link rel="stylesheet" href="styles/index.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
     </head>
     <body>
+        <div id="quote-container">
+            <p id="quote" class="quote"></p>
+            <p id="author" class="author"></p>
+        </div>
         <div class="container">
             <div class="card_1">
                 <div class="image">
                     <p>当たる も 八卦 当たらぬ も 八卦</p>
                     <div class="img"></div>
                 </div>
-
             </div>
             <div class="card_2">
                 <div id="txt"></div>
@@ -25,12 +34,15 @@
             <div class="card_3">
                 <form action="https://www.startpage.com/sp/search">
                     <div class="search">
-                        <input type="search" name="query" aria-label="Search" placeholder="Search on Startpage">
+                        <input
+                            type="search"
+                            name="query"
+                            aria-label="Search"
+                            placeholder="Search on Startpage"
+                        />
                         <i class="fa-solid fa-magnifying-glass iconSearch"></i>
                     </div>
-                    <button type="submit" hidden>
-                        Search
-                    </button>
+                    <button type="submit" hidden>Search</button>
                 </form>
             </div>
             <div class="card_4">
@@ -38,17 +50,32 @@
                     <p>Youtube</p>
                     <i class="fa-brands fa-youtube icon"></i>
                 </a>
-                <a class="link" href="https://open.spotify.com/">
-                    <p>Spotify</p>
-                    <i class="fa-brands fa-spotify icon"></i>
+                <a
+                    class="link"
+                    href="https://music.youtube.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <p>YouTube Music</p>
+                    <img
+                        width="48"
+                        height="48"
+                        src="https://img.icons8.com/color/48/youtube-music.png"
+                        alt="youtube-music"
+                    />
                 </a>
                 <a class="link" href="https://www.reddit.com/">
                     <p>Reddit</p>
                     <i class="fa-brands fa-reddit-alien icon"></i>
                 </a>
-                <a class="link" href="https://www.linkedin.com/">
-                    <p>LinkedIn</p>
-                    <i class="fa-brands fa-linkedin-in icon"></i>
+                <a
+                    class="link"
+                    href="https://figma.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <p>Figma</p>
+                    <i class="fa-brands fa-figma icon"></i>
                 </a>
                 <a class="link" href="https://github.com/">
                     <p>Github</p>
