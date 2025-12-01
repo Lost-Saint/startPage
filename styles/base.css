@@ -119,7 +119,7 @@ body {
 .img {
     height: 100%;
     width: 50%;
-    background-image: url("../assets/vagabond.jpg");
+    background-image: url("../assets/vagabond.png");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
